@@ -43,6 +43,12 @@ if st.checkbox("Tentang Dataset"):
 
 sns.set_style('darkgrid')
 
+if st.checkbox('EDa'):
+    st.header('**Input Dataframe**')
+    st.write(data)
+    st.write('---')
+    st.header('**Profiling Report**')
+
 #train test split
 X = data.drop('Stage',axis=1)
 y = data['Stage']
