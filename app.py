@@ -43,7 +43,7 @@ if st.checkbox("Tentang Dataset"):
 
 sns.set_style('darkgrid')
 
-if st.checkbox('EDa'):
+if st.checkbox('EDA'):
     st.header('**Input Dataframe**')
     st.write(data)
     st.write('---')
