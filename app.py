@@ -122,6 +122,6 @@ user_result = rf.predict(user_data)
 
 model = pickle.load(open('SVC.pkl', 'rb'))
     
-st.title("DIATAS ADALAH HASIL DARI APLIKASI PREDIKSI PREDIKSI CIRHOSSIS")
+st.title("DIATAS ADALAH HASIL DARI APLIKASI PREDIKSI CIRHOSSIS")
 
     
