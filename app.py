@@ -122,16 +122,6 @@ user_result = rf.predict(user_data)
 
 model = pickle.load(open('SVC.pkl', 'rb'))
     
-st.title("Hasil Klasifikasinya Adalah")
-if st.button("Prediksi"):
-        prediction = prediction = model.predict(user_result)[0]
-    
-        st.info("Prediksi Sukses...")
-        
-        if (prediction == 1):
-            st.warning("Orang tersebut rentan terkena penyakit Cirhossis")
-        else:
-            st.success("Orang tersebut relatif aman dari penyakit Cirhossis")
-
+st.title("DIATAS ADALAH HASIL DARI APLIKASI PREDIKSI PREDIKSI CIRHOSSIS")
 
     
